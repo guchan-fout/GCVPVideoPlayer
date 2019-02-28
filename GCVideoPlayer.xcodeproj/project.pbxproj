@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15195701220D556C0070B041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15195700220D556C0070B041 /* AppDelegate.swift */; };
+		15195708220D55720070B041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15195707220D55720070B041 /* Assets.xcassets */; };
+		1519570B220D55720070B041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15195709220D55720070B041 /* LaunchScreen.storyboard */; };
+		15195713220D86C10070B041 /* GCVPTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15195712220D86C10070B041 /* GCVPTableViewController.swift */; };
+		15195715220D87E70070B041 /* GCVPVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15195714220D87E70070B041 /* GCVPVideoPlayerView.swift */; };
+		1522363722131F0200FF94F7 /* GCVPPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522363622131F0200FF94F7 /* GCVPPlayerView.swift */; };
+		15C9C95722171E7200F43051 /* GreenlanternVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 15C9C95622171E7100F43051 /* GreenlanternVideo.mp4 */; };
+		15DE57592211B044007C630F /* SupermanVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 15DE57582211B043007C630F /* SupermanVideo.mp4 */; };
+		15E2BAF6220F29F8001D2A46 /* HerosInfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2BAF5220F29F8001D2A46 /* HerosInfoAPI.swift */; };
+		15E2BAF8220F3A17001D2A46 /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2BAF7220F3A17001D2A46 /* HeroTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		151956FD220D556C0070B041 /* GCVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15195700220D556C0070B041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15195707220D55720070B041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1519570A220D55720070B041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1519570C220D55720070B041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15195712220D86C10070B041 /* GCVPTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCVPTableViewController.swift; sourceTree = "<group>"; };
+		15195714220D87E70070B041 /* GCVPVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCVPVideoPlayerView.swift; sourceTree = "<group>"; };
+		1522363622131F0200FF94F7 /* GCVPPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCVPPlayerView.swift; sourceTree = "<group>"; };
+		15C9C95622171E7100F43051 /* GreenlanternVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GreenlanternVideo.mp4; sourceTree = "<group>"; };
+		15DE57582211B043007C630F /* SupermanVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = SupermanVideo.mp4; path = GCVideoPlayer/Assets.xcassets/SupermanVideo.dataset/SupermanVideo.mp4; sourceTree = "<group>"; };
+		15E2BAF5220F29F8001D2A46 /* HerosInfoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosInfoAPI.swift; sourceTree = "<group>"; };
+		15E2BAF7220F3A17001D2A46 /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		151956FA220D556C0070B041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151956F4220D556C0070B041 = {
+			isa = PBXGroup;
+			children = (
+				15DE57582211B043007C630F /* SupermanVideo.mp4 */,
+				15C9C95622171E7100F43051 /* GreenlanternVideo.mp4 */,
+				151956FF220D556C0070B041 /* GCVideoPlayer */,
+				151956FE220D556C0070B041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		151956FE220D556C0070B041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				151956FD220D556C0070B041 /* GCVideoPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		151956FF220D556C0070B041 /* GCVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				15195712220D86C10070B041 /* GCVPTableViewController.swift */,
+				15195714220D87E70070B041 /* GCVPVideoPlayerView.swift */,
+				15195700220D556C0070B041 /* AppDelegate.swift */,
+				15195707220D55720070B041 /* Assets.xcassets */,
+				15195709220D55720070B041 /* LaunchScreen.storyboard */,
+				1519570C220D55720070B041 /* Info.plist */,
+				15E2BAF5220F29F8001D2A46 /* HerosInfoAPI.swift */,
+				15E2BAF7220F3A17001D2A46 /* HeroTableViewCell.swift */,
+				1522363622131F0200FF94F7 /* GCVPPlayerView.swift */,
+			);
+			path = GCVideoPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		151956FC220D556C0070B041 /* GCVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1519570F220D55720070B041 /* Build configuration list for PBXNativeTarget "GCVideoPlayer" */;
+			buildPhases = (
+				151956F9220D556C0070B041 /* Sources */,
+				151956FA220D556C0070B041 /* Frameworks */,
+				151956FB220D556C0070B041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCVideoPlayer;
+			productName = GCVideoPlayer;
+			productReference = 151956FD220D556C0070B041 /* GCVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		151956F5220D556C0070B041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = GUCHAN;
+				TargetAttributes = {
+					151956FC220D556C0070B041 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 151956F8220D556C0070B041 /* Build configuration list for PBXProject "GCVideoPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 151956F4220D556C0070B041;
+			productRefGroup = 151956FE220D556C0070B041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				151956FC220D556C0070B041 /* GCVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		151956FB220D556C0070B041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DE57592211B044007C630F /* SupermanVideo.mp4 in Resources */,
+				15C9C95722171E7200F43051 /* GreenlanternVideo.mp4 in Resources */,
+				1519570B220D55720070B041 /* LaunchScreen.storyboard in Resources */,
+				15195708220D55720070B041 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		151956F9220D556C0070B041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15195715220D87E70070B041 /* GCVPVideoPlayerView.swift in Sources */,
+				15195701220D556C0070B041 /* AppDelegate.swift in Sources */,
+				15195713220D86C10070B041 /* GCVPTableViewController.swift in Sources */,
+				1522363722131F0200FF94F7 /* GCVPPlayerView.swift in Sources */,
+				15E2BAF6220F29F8001D2A46 /* HerosInfoAPI.swift in Sources */,
+				15E2BAF8220F3A17001D2A46 /* HeroTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15195709220D55720070B041 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1519570A220D55720070B041 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1519570D220D55720070B041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1519570E220D55720070B041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15195710220D55720070B041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GCVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GC.GCVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15195711220D55720070B041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GCVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GC.GCVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		151956F8220D556C0070B041 /* Build configuration list for PBXProject "GCVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1519570D220D55720070B041 /* Debug */,
+				1519570E220D55720070B041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1519570F220D55720070B041 /* Build configuration list for PBXNativeTarget "GCVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15195710220D55720070B041 /* Debug */,
+				15195711220D55720070B041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 151956F5220D556C0070B041 /* Project object */;
+}
