@@ -13,8 +13,8 @@
 		15195713220D86C10070B041 /* GCVPTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15195712220D86C10070B041 /* GCVPTableViewController.swift */; };
 		15195715220D87E70070B041 /* GCVPVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15195714220D87E70070B041 /* GCVPVideoPlayerView.swift */; };
 		1522363722131F0200FF94F7 /* GCVPPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522363622131F0200FF94F7 /* GCVPPlayerView.swift */; };
-		15CA4CEA2227FC01000BB69C /* GreenlanternVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 15CA4CE92227FC01000BB69C /* GreenlanternVideo.mp4 */; };
-		15DE57592211B044007C630F /* SupermanVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 15DE57582211B043007C630F /* SupermanVideo.mp4 */; };
+		15DDA240225F488A00D70C89 /* GreenlanternVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 15DDA23D225F46C400D70C89 /* GreenlanternVideo.mp4 */; };
+		15DDA241225F488A00D70C89 /* SupermanVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 15DE57582211B043007C630F /* SupermanVideo.mp4 */; };
 		15E2BAF6220F29F8001D2A46 /* HerosInfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2BAF5220F29F8001D2A46 /* HerosInfoAPI.swift */; };
 		15E2BAF8220F3A17001D2A46 /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2BAF7220F3A17001D2A46 /* HeroTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -28,8 +28,8 @@
 		15195712220D86C10070B041 /* GCVPTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCVPTableViewController.swift; sourceTree = "<group>"; };
 		15195714220D87E70070B041 /* GCVPVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCVPVideoPlayerView.swift; sourceTree = "<group>"; };
 		1522363622131F0200FF94F7 /* GCVPPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCVPPlayerView.swift; sourceTree = "<group>"; };
-		15CA4CE92227FC01000BB69C /* GreenlanternVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GreenlanternVideo.mp4; sourceTree = "<group>"; };
-		15DE57582211B043007C630F /* SupermanVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = SupermanVideo.mp4; path = GCVideoPlayer/Assets.xcassets/SupermanVideo.dataset/SupermanVideo.mp4; sourceTree = "<group>"; };
+		15DDA23D225F46C400D70C89 /* GreenlanternVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GreenlanternVideo.mp4; sourceTree = "<group>"; };
+		15DE57582211B043007C630F /* SupermanVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SupermanVideo.mp4; sourceTree = "<group>"; };
 		15E2BAF5220F29F8001D2A46 /* HerosInfoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerosInfoAPI.swift; sourceTree = "<group>"; };
 		15E2BAF7220F3A17001D2A46 /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,8 +48,9 @@
 		151956F4220D556C0070B041 = {
 			isa = PBXGroup;
 			children = (
+				15DDA23F225F477C00D70C89 /* GCVPVideoPlayerView */,
+				15DDA23D225F46C400D70C89 /* GreenlanternVideo.mp4 */,
 				15DE57582211B043007C630F /* SupermanVideo.mp4 */,
-				15CA4CE92227FC01000BB69C /* GreenlanternVideo.mp4 */,
 				151956FF220D556C0070B041 /* GCVideoPlayer */,
 				151956FE220D556C0070B041 /* Products */,
 			);
@@ -67,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				15195712220D86C10070B041 /* GCVPTableViewController.swift */,
-				15195714220D87E70070B041 /* GCVPVideoPlayerView.swift */,
 				15195700220D556C0070B041 /* AppDelegate.swift */,
 				15195707220D55720070B041 /* Assets.xcassets */,
 				15195709220D55720070B041 /* LaunchScreen.storyboard */,
@@ -77,6 +77,14 @@
 				1522363622131F0200FF94F7 /* GCVPPlayerView.swift */,
 			);
 			path = GCVideoPlayer;
+			sourceTree = "<group>";
+		};
+		15DDA23F225F477C00D70C89 /* GCVPVideoPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				15195714220D87E70070B041 /* GCVPVideoPlayerView.swift */,
+			);
+			path = GCVPVideoPlayerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15CA4CEA2227FC01000BB69C /* GreenlanternVideo.mp4 in Resources */,
-				15DE57592211B044007C630F /* SupermanVideo.mp4 in Resources */,
+				15DDA240225F488A00D70C89 /* GreenlanternVideo.mp4 in Resources */,
+				15DDA241225F488A00D70C89 /* SupermanVideo.mp4 in Resources */,
 				1519570B220D55720070B041 /* LaunchScreen.storyboard in Resources */,
 				15195708220D55720070B041 /* Assets.xcassets in Resources */,
 			);
