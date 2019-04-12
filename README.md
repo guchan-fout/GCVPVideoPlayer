@@ -12,3 +12,6 @@ videoView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
 self.navigationController?.view.addSubview(videoView)
 
 ```
+
+# Image
+![Image](https://github.com/steven530/GCVPVideoPlayer/blob/master/images/sampleimage.png)
