@@ -51,7 +51,7 @@
 				15DDA23F225F477C00D70C89 /* GCVPVideoPlayerView */,
 				15DDA23D225F46C400D70C89 /* GreenlanternVideo.mp4 */,
 				15DE57582211B043007C630F /* SupermanVideo.mp4 */,
-				151956FF220D556C0070B041 /* GCVideoPlayer */,
+				151956FF220D556C0070B041 /* Demo */,
 				151956FE220D556C0070B041 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,7 +64,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		151956FF220D556C0070B041 /* GCVideoPlayer */ = {
+		151956FF220D556C0070B041 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				15195712220D86C10070B041 /* GCVPTableViewController.swift */,
@@ -76,7 +76,7 @@
 				15E2BAF7220F3A17001D2A46 /* HeroTableViewCell.swift */,
 				1522363622131F0200FF94F7 /* GCVPPlayerView.swift */,
 			);
-			path = GCVideoPlayer;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		15DDA23F225F477C00D70C89 /* GCVPVideoPlayerView */ = {
@@ -119,6 +119,7 @@
 				TargetAttributes = {
 					151956FC220D556C0070B041 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -306,14 +307,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = GCVideoPlayer/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GC.GCVideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -324,14 +325,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = GCVideoPlayer/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GC.GCVideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
